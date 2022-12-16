@@ -42,3 +42,14 @@ int	main(void)
 	return(0);
 }
 */
+
+/**
+  * Bellek alanı src'den dst bellek alanına n bayt kopyalayın
+  *
+  * dst Bu, içeriğin kopyalanacağı hedef dizidir, tip dökümü bir
+  * Işaretçi.
+  * src Kaynak dize.
+  * n kopyalanacak bayt sayısı
+  *
+  * @return Hedef dizeye bir işaretçi.
+  */

@@ -25,10 +25,13 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
  * striteri ile tek farkı mapte 
  * kendini yeni bir dizinin içine atar
 */
-/*deneme çalıştıramadım
-int main()
-{
-	char	a[] = "selam";
-	printf("%s", ft_striteri(a));	
-}
+
+/*
+  *
+  * s dizisini yineleyerek, her karakterin dizinini ve adresini f işlevine iletin
+  *
+  * s Yinelenecek dize.
+  * f Dizinin her karakterine uygulanacak işlev.
+  *
+  * @dönüş Hiçbir şey.
 */

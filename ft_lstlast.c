@@ -22,6 +22,15 @@ t_list	*ft_lstlast(t_list *lst)
 			temp = temp -> next;
 	return (temp);
 }
+
+/**
+  * Bu işlev, bağlantılı bir listenin son öğesini döndürür
+  *
+  * lst Bir listenin ilk bağlantısına işaretçi.
+  *
+  * @return Listenin son öğesi.
+  */
+
 /*
 int main()
 {

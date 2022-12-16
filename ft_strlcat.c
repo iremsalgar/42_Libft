@@ -31,6 +31,19 @@ size_t	ft_strlcat(char *hedef, const char *kaynak, size_t boyut)
 	hedef[len_hedef] = '\0';
 	return (len_hedef + ft_strlen((char *)(&kaynak[index_kaynak])));
 }
+
+/**
+  * Kaynak ile gösterilen stringi hedef ile gösterilen stringin sonuna kopyalar ama
+  * hedefin sonundaki sonlandırıcı boş baytın üzerine yazmaz ve hedefin toplam uzunluğunu döndürür
+  * oluşturmaya çalıştığı dize
+  *
+  * hedef Kopyalanacak dize.
+  * kaynak Eklenecek dize.
+  *boyut Hedef tamponun boyutu.
+  *
+  * @return Yaratmaya çalıştığı dizgenin uzunluğu.
+  */
+
 /*
 int	main(void)
 {

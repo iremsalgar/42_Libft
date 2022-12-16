@@ -58,3 +58,6 @@ int	main()
 	return(0);
 }
 */
+
+//asci to integer 
+//48 çıkarılmasının nedeni ascii tablosu ile ilgili

@@ -28,6 +28,17 @@ char	*ft_strtrim(char const *s1, char const *set)
 		return (ft_calloc(1, 1));
 	return (ft_substr(s1, i, (j - i + 1)));
 }
+
+/**
+  * Kümede belirtilen karakterler olmadan argüman olarak verilen dizgenin bir kopyasını döndürür
+  * argüman
+  *
+  * s1 Kesilecek dize.
+  * kırpılacak karakter kümesini ayarlayın
+  *
+  * @return Yeni bir dizeye işaretçi.
+  */
+
 /*
 int	main()
 {

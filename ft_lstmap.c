@@ -30,6 +30,18 @@ t_list	*ft_lstmap(t_list *lst, void *(*f) (void *), void (*del)(void *))
 	}
 	return (lst_map);
 }
+
+/**
+  * Bir liste alır, listedeki her öğeye bir işlev uygular ve yeni bir liste döndürür.
+  * fonksiyonun sonuçları
+  *
+  * lst bağlantılı bir listenin ilk elemanına işaretçi
+  * f bir geçersiz işaretçi alan ve bir geçersiz işaretçi döndüren bir işlevin işaretçisi
+  * del, tek bir geçersiz işaretçi bağımsız değişkeni alan ve hiçbir şey döndürmeyen bir işleve işaretçi.
+  *
+  * @return Yeni listenin ilk elemanına işaretçi.
+  */
+
 /*
 void    *f(void *s)
 {

@@ -16,6 +16,14 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	new -> next = *lst;
 	*lst = new;
 }
+
+/**
+  * Listenin başına yeni bir öğe ekler.
+  *
+  * lst Bağlantılı bir listeye işaretçiye işaretçi.
+  * listeye eklenecek yeni öğe
+  */
+
 /*
 int main()
 {

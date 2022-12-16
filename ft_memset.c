@@ -23,3 +23,14 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
+
+/**
+  * Ft_memset(), bir bellek alanına, bir bayt değerine ve bir size_t uzunluğuna işaretçi alır ve
+  * bayt değeri ile hafıza alanı
+  *
+  * s Bu, doldurulacak bellek bloğunun işaretçisidir.
+  * c hafızayı dolduracak karakter
+  * n c değerine ayarlanacak bayt sayısı
+  *
+  * @return Bellek alanına bir işaretçi s.
+  */

@@ -25,3 +25,13 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		return (0);
 	return (*(unsigned char *)s1 - *(unsigned char *)s2);
 }
+
+/**
+  * İşlev, s1 ve s2 dizilerinin ilk n karakterini karşılaştırır
+  *
+  * s1 Bu, karşılaştırılacak ilk dizidir.
+  * s2 Karşılaştırılacak dize.
+  * n Karşılaştırılacak maksimum karakter sayısı.
+  *
+  * @return Karşılaştırılan dizelerde farklılık gösteren ilk iki karakter arasındaki fark.
+  */

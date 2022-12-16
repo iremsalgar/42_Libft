@@ -24,6 +24,7 @@ char	*ft_strdup(const char *s1)
 	ptr[size] = '\0';
 	return (ptr);
 }
+
 /*size için s1 in uzunluğunu ölçtüm
  *ptr için size + 1 yaparak null u da dahil etti
  *çarpımı kadar yer açtım 

@@ -42,3 +42,16 @@ int	main(void)
 	return (0);
 }
 */
+
+/**
+  * Kaynak hedeften küçükse, kaynağı hedefin sonuna kopyalayın.
+  * kaynaktan hedefin başına. Aksi takdirde, kaynağı şuradan hedefe kopyalayın:
+  * kaynağın başlangıcından hedefin başına
+  *
+  * dst Bu, içeriğin kopyalanacağı hedef dizinin işaretçisidir,
+  * void* türünde bir işaretçiye tip dökümü yapılmıştır.
+  * src Kaynak dize.
+  * len Taşınacak bayt sayısı.
+  *
+  * @return Hedef dizeye bir işaretçi.
+  */

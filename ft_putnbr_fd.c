@@ -34,3 +34,10 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd((n * -1), fd);
 	}
 }
+
+/**
+  * Yukarıdaki işlev, n tamsayısını fd dosya tanıtıcısına yazdırır.
+  *
+  * n yazdırılacak sayı
+  * fd Çıktının gönderileceği dosyanın dosya tanıtıcısı.
+  */

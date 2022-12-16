@@ -28,6 +28,20 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(sstr, (s + start), (len + 1));
 	return (sstr);
 }
+
+/**
+  * "ft_substr(), s ile işaret edilen dizgenin bir alt dizisi olan yeni bir dizgeye işaretçi döndürür,
+  * dizin başlangıcından başlayarak ve len uzunluğunda."
+  *
+  * Yaptığımız ilk şey, s'nin NULL olup olmadığını kontrol etmektir. Eğer öyleyse, NULL döndürürüz
+  *
+  * s Bölünecek dize.
+  * alt dizeye eklenecek ilk karakterin dizinini başlatın.
+  * len döndürülecek alt dizgenin uzunluğu
+  *
+  * @return Yeni bir dizeye işaretçi.
+  */
+
 /*
 int main()
 {

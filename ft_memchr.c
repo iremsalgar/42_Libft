@@ -26,3 +26,14 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
+/**
+  * ft_memchr() işlevi, dizgede c'nin (işaretsiz bir karaktere dönüştürülmüş) ilk geçtiği yeri bulur
+  * s
+  *
+  * s Aranacak hafıza alanı.
+  * c Aranacak karakter.
+  * n Aranacak bayt sayısı.
+  *
+  * @return s dizisindeki c karakterinin ilk geçtiği yerin adresi.
+  */

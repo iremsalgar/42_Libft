@@ -49,6 +49,7 @@ char	*ft_itoa(int n)
 	}
 	return (result);
 }
+
 /*
 #include <stdio.h>
 int main()
@@ -57,6 +58,7 @@ int main()
 	printf("%s\n", ft_itoa(a));
 }
 */
+
 /*
  * digitnum ile sayının kaç basamaklı olduğunu öğren
  * uzunluğuna işareti de ekle
@@ -67,3 +69,11 @@ int main()
  *işaret yoksa len i azaltarak sondan yaz işaret ekleme
  *sonucu döndür
 */
+
+/**
+ * It takes an integer and returns a string representation of that integer
+ * 
+ * n the number to convert
+ * 
+ * @return A pointer to a string.
+ */

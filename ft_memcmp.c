@@ -24,3 +24,14 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 		return (0);
 	return (((unsigned char *)s1)[i] - ((unsigned char *)s2)[i]);
 }
+
+/**
+  * ft_memcmp() işlevi, s1 bellek alanının ilk n baytını, bellek alanının ilk n baytıyla karşılaştırır.
+  * hafıza alanı s2
+  *
+  * s1 Karşılaştırılacak ilk dizi.
+  * s2 Karşılaştırılacak dize.
+  * n Karşılaştırılacak bayt sayısı.
+  *
+  * @return s1 ve s2 dizilerinde farklılık gösteren ilk iki bayt arasındaki fark.
+  */

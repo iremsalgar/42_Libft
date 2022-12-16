@@ -26,6 +26,18 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (i);
 }
+
+/**
+  * Sonlandırıcı boş bayt ('\0') dahil olmak üzere src tarafından işaret edilen dizgiyi işaret edilen arabelleğe kopyalayın
+  * dst ile
+  *
+  * dst Bu, hedef dizedir.
+  * src Kaynak dize.
+  * dstsize Hedef tamponun boyutu.
+  *
+  * @return src dizisinin uzunluğu.
+  */
+
 /*
 int main(void)
 {

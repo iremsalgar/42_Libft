@@ -28,3 +28,12 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcpy(&ccat[len_s1], s2, len_s2 + 1);
 	return (ccat);
 }
+
+/**
+  * Ft_strjoin() iki dizi alır ve iki dizinin birleşimi olan yeni bir dizi döndürür
+  *
+  * s1 Birleştirilecek ilk dizi.
+  * s2 s1'in sonuna eklenecek dizi.
+  *
+  * @return s1 ve s2'nin birleştirilmesinin sonucu olan yeni bir dizeye işaretçi.
+  */

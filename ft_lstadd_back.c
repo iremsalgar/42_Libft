@@ -25,6 +25,16 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		temp->next = new;
 	}
 }
+
+/**
+  * Listenin sonuna 'yeni' öğesini ekler
+  *
+  * lst Bir listenin ilk bağlantısına işaretçi.
+  * yeni Listeye eklenecek yeni öğe.
+  *
+  * @return Listedeki son elemanın adresi.
+  */
+
 /*
 int main()
 {
