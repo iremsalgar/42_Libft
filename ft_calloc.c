@@ -21,6 +21,7 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(ptr, (count * size));
 	return (ptr);
 }
+
 /*
  * burada b zero içine yönlendirdim
  * ancak bzero da memset kullandım
